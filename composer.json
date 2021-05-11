@@ -11,7 +11,9 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "laszlopalvoelgyi/helper": "dev-main"
+        "laszlopalvoelgyi/helper": "^1.0",
+        "laszlopalvoelgyi/csvreplace": "^1.0",
+        "laszlopalvoelgyi/test": "^1.0"
     },
     "autoload": {
         "psr-4": {

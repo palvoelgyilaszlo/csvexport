@@ -4,23 +4,62 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3fe8ecee102be82b3980c94c9d3c98f7",
+    "content-hash": "6d2d0c2cf292f699be1c60f258e9626a",
     "packages": [
         {
-            "name": "laszlopalvoelgyi/helper",
-            "version": "dev-main",
+            "name": "laszlopalvoelgyi/csvreplace",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/palvoelgyilaszlo/helper.git",
-                "reference": "99a173c66108b212ae4295e687f1e264278e5fd8"
+                "url": "https://github.com/palvoelgyilaszlo/csvreplace.git",
+                "reference": "8018dc234fc9222e46457fef13c77a9c9f3fe46d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/palvoelgyilaszlo/helper/zipball/99a173c66108b212ae4295e687f1e264278e5fd8",
-                "reference": "99a173c66108b212ae4295e687f1e264278e5fd8",
+                "url": "https://api.github.com/repos/palvoelgyilaszlo/csvreplace/zipball/8018dc234fc9222e46457fef13c77a9c9f3fe46d",
+                "reference": "8018dc234fc9222e46457fef13c77a9c9f3fe46d",
                 "shasum": ""
             },
-            "default-branch": true,
+            "require": {
+                "laszlopalvoelgyi/helper": "^1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Palvoelgyi\\CsvRepace\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "palvoelgyilaszlo",
+                    "email": "l.palvoelgyi@gmail.com"
+                }
+            ],
+            "description": "Sring replate into csv file",
+            "support": {
+                "issues": "https://github.com/palvoelgyilaszlo/csvreplace/issues",
+                "source": "https://github.com/palvoelgyilaszlo/csvreplace/tree/v1.0.0"
+            },
+            "time": "2021-05-11T10:03:20+00:00"
+        },
+        {
+            "name": "laszlopalvoelgyi/helper",
+            "version": "v1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/palvoelgyilaszlo/helper.git",
+                "reference": "0f0b5f354f192fef60ff63fa8d32e924f69f69c1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/palvoelgyilaszlo/helper/zipball/0f0b5f354f192fef60ff63fa8d32e924f69f69c1",
+                "reference": "0f0b5f354f192fef60ff63fa8d32e924f69f69c1",
+                "shasum": ""
+            },
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -40,17 +79,52 @@
             "description": "help for php programming",
             "support": {
                 "issues": "https://github.com/palvoelgyilaszlo/helper/issues",
-                "source": "https://github.com/palvoelgyilaszlo/helper/tree/main"
+                "source": "https://github.com/palvoelgyilaszlo/helper/tree/v1.0.4"
             },
-            "time": "2021-05-10T14:37:57+00:00"
+            "time": "2021-05-10T13:42:10+00:00"
+        },
+        {
+            "name": "laszlopalvoelgyi/test",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/palvoelgyilaszlo/test.git",
+                "reference": "bce2758327e56643af696061287f282fffdac920"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/palvoelgyilaszlo/test/zipball/bce2758327e56643af696061287f282fffdac920",
+                "reference": "bce2758327e56643af696061287f282fffdac920",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Test\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "palvoelgyilaszlo",
+                    "email": "l.palvoelgyi@gmail.com"
+                }
+            ],
+            "description": "testing",
+            "support": {
+                "issues": "https://github.com/palvoelgyilaszlo/test/issues",
+                "source": "https://github.com/palvoelgyilaszlo/test/tree/v1.0.0"
+            },
+            "time": "2021-05-10T13:08:37+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "laszlopalvoelgyi/helper": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

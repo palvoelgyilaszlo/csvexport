@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "3fe8ecee102be82b3980c94c9d3c98f7",
+    "packages": [
+        {
+            "name": "laszlopalvoelgyi/helper",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/palvoelgyilaszlo/helper.git",
+                "reference": "99a173c66108b212ae4295e687f1e264278e5fd8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/palvoelgyilaszlo/helper/zipball/99a173c66108b212ae4295e687f1e264278e5fd8",
+                "reference": "99a173c66108b212ae4295e687f1e264278e5fd8",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Palvoelgyi\\Helper\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "palvoelgyilaszlo",
+                    "email": "l.palvoelgyi@gmail.com"
+                }
+            ],
+            "description": "help for php programming",
+            "support": {
+                "issues": "https://github.com/palvoelgyilaszlo/helper/issues",
+                "source": "https://github.com/palvoelgyilaszlo/helper/tree/main"
+            },
+            "time": "2021-05-10T14:37:57+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "laszlopalvoelgyi/helper": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

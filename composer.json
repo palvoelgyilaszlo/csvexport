@@ -1,0 +1,21 @@
+{
+    "name": "laszlopalvoelgyi/csvexport",
+    "description": "SCV Export",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "palvoelgyilaszlo",
+            "email": "lecksauser@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laszlopalvoelgyi/helper": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+          "Palvoelgyi\\CsvExport\\": "src/"
+        }
+      }
+}

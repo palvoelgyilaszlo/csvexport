@@ -1,19 +1,18 @@
 {
-    "name": "laszlopalvoelgyi/csvexport",
+    "name": "palvoelgyilaszlo/csvexport",
     "description": "SCV Export",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "palvoelgyilaszlo",
-            "email": "lecksauser@gmail.com"
+            "email": "l.palvoelgyi@gmail.com"
         }
     ],
     "minimum-stability": "dev",
     "require": {
-        "laszlopalvoelgyi/helper": "^1.0",
-        "laszlopalvoelgyi/csvreplace": "^1.0",
-        "laszlopalvoelgyi/test": "^1.0"
+        "palvoelgyilaszlo/helper": "^1",
+        "palvoelgyilaszlo/csvreplace": "^1"
     },
     "autoload": {
         "psr-4": {

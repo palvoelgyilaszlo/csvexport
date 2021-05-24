@@ -9,7 +9,7 @@
      * and returns a csv file only for downloads.
      * Use: Either as class call or invoke:
      *
-     * * @author László Pálvölgyi <l.palvoelgyi@the-platform-group.com>
+     * * @author László Pálvölgyi <l.palvoelgyi@gmail.com>
      *
      * $CSV = new CSV;
      * $CSV->setData($dataArray)

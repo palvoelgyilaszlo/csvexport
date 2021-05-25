@@ -5,12 +5,21 @@
     and returns a csv file only for downloads.
     Use: Either as class call or invoke:
     
-    $CSV = new CSV;
+    use Palvoelgyi\CsvExport\CSVExport;
+
+    $dataArray = [ 
+        [ 'Header 1', 'Header 2', 'Header 3' ],
+        [ 'TEST 4',   'TEST 5',   'TEST 6'   ],
+        [ 'TEST 7',   'TEST 8',   'TEST 9'   ],
+        [ 'TEST 10',  'TEST 11',  'TEST 12'  ],
+    ];
+
+    $CSV = new CSVExport;
     $CSV($dataArray);
 
     or
 
-    $CSV = new CSV;
+    $CSV = new CSVExport;
     $CSV->setData($dataArray)
     ->generateCSVFile()
     ->getCSVFile();

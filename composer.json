@@ -11,7 +11,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "palvoelgyilaszlo/helper": "^1",
+        "palvoelgyilaszlo/helper": "^1.0",
         "palvoelgyilaszlo/csvreplace": "^1"
     },
     "autoload": {
